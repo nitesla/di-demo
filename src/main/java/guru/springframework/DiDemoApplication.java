@@ -1,9 +1,9 @@
-package guru.springframework.didemo;
+package guru.springframework;
 
-import guru.springframework.didemo.controllers.ConstructorInjectedController;
-import guru.springframework.didemo.controllers.MyController;
-import guru.springframework.didemo.controllers.PropertyInjectedController;
-import guru.springframework.didemo.controllers.SetterInjectedController;
+import guru.springframework.controllers.ConstructorInjectedController;
+import guru.springframework.controllers.MyController;
+import guru.springframework.controllers.PropertyInjectedController;
+import guru.springframework.controllers.SetterInjectedController;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
